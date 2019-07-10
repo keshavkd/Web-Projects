@@ -47,6 +47,11 @@ header {
         background: $col-light;
         transition-duration: $out;
     }
+
+    img {
+        height: 32px;
+        padding: 0.4rem;
+    }
 }
 
 #info {
