@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500&display=swap');
+
+html, 
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: whitesmoke;
+}
+
+i {
+  padding-right: 0.4rem;
+}
+
+.card-new {
+  color: whitesmoke;
+  border: none;
+  background: linear-gradient(135deg, rgba(128,34,195,1) 0%, rgba(253,125,45,1) 100%);
+}
+
+/* .navbar,
+.footer-text {
+  background: linear-gradient(135deg, rgba(128,34,195,1) 0%, rgba(253,125,45,1) 100%);
+} */
+
+.nav-div {
+  background: linear-gradient(135deg, rgba(128,34,195,1) 0%, rgba(253,125,45,1) 100%);
+}
+
+h3,
+.search-4 {
+  background: linear-gradient(135deg, rgba(128,34,195,1) 0%, rgba(253,125,45,1) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.i-search {
+  color: rgb(157, 34, 195);
+}
+
+.spanx {
+  font-size: 2rem;
+}
+
+.footer-text a {
+  color: white;
+  text-decoration: none;
+  transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+}
+
+.footer-text a:hover {
+  color: #e9a9d9;
+  transition-duration: 0.2s;
+  -moz-transition-duration: 0.2s;
+}
+
+.card-header,
+.list-group-item {
+  background-color: #f8f9fa;
+  color: #343a40;
+}
+
+.size-sm {
+  font-size: 0.9rem;
+}
